@@ -3,7 +3,7 @@ main {
 }
 
 .main_first--section {
-  background-color: #2f303a;
+  background-image: url("/images/fon.png");
 }
 
 .main_container {
@@ -50,13 +50,15 @@ main {
 }
 
 .main_first--btn:hover {
-  animation-name: animateBtn;
-  animation-duration: 2s;
   cursor: pointer;
 }
 
 .main_second--section .main_container {
   margin-bottom: 94px;
+}
+
+.second--img {
+  margin-bottom: 30px;
 }
 
 .main_second--title {
@@ -107,6 +109,15 @@ color: #212121;
   justify-content: center;
 }
 
+.card {
+  box-shadow: 0px 2px 1px 0px #00000033;
+
+  box-shadow: 0px 1px 1px 0px #00000024;
+  
+  box-shadow: 0px 1px 3px 0px #0000001F;
+  padding-bottom: 20px;
+}
+
 .card_title {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -130,8 +141,34 @@ color: #757575;
 }
 
 .main_fourth--section {
-  margin-top: 188px;
+  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color:#F5F4FA;
 }
+
+.card_socials {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.card_socials svg path, .card_socials svg g path {
+  cursor: pointer;
+  transition: .5s;
+}
+
+.card_socials svg:hover path {
+  fill: #2196f3;
+  transition: .5s;
+}
+
+.card_socials svg:hover g path{
+  fill: white;
+  transition: .5s;
+}
+
 
 .main_fourth--section .main_container {
 flex-direction: column;
@@ -158,3 +195,44 @@ text-align: center;
 color: #212121;
 }
 
+.main_fifth--section {
+  margin-top: 94px;
+}
+
+.main_fifth--title {
+  margin-bottom: 50px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.main_fifth--section .main_container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_fifth--clients {
+  display: flex;
+  gap: 30px;
+}
+
+.main_fifth--clients svg:hover rect {
+  stroke: #2196f3;
+  transition: 0.5s;
+}
+
+.main_fifth--clients svg rect, .main_fifth--clients svg path {
+  transition: 0.5s;
+}
+
+.main_fifth--clients svg:hover path {
+  fill: #2196f3;
+  transition: 0.5s;
+}
+
+.main_fifth--clients svg:hover {
+  cursor: pointer;
+}

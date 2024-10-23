@@ -11,6 +11,17 @@ header {
   margin: 0 auto;
 }
 
+.header_right--side {
+  display: flex;
+  gap: 30px;
+}
+
+.header_right--side--part {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
 .header_left--side {
   display: flex;
 }

@@ -3,6 +3,8 @@
 }
 
 .footer_container {
+  display: flex;
+  gap: 70px;
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
@@ -40,4 +42,23 @@ footer address {
 
 .footer_contact:first-child {
     margin-bottom: 9px;
+}
+
+.footer_second--title {
+  margin-bottom: 20px;
+  font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.41px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #FFFFFF;
+}
+
+footer .card_socials svg g path {
+  fill: #FFFFFF;
+}
+
+address {
+  font-style: normal;
 }
