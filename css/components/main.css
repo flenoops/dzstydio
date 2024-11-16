@@ -102,27 +102,6 @@ color: #212121;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  position: relative;
-}
-
-.main_third--images--text {
-  font-family: Roboto;
-font-size: 14px;
-font-weight: 500;
-line-height: 16.41px;
-letter-spacing: 0.03em;
-text-align: center;
-color: #ffffff;
-text-transform: uppercase;
-padding: 27px 0;
-}
-
-.main_third--images--content {
-  background: #2F303ACC;
-  position: absolute;
-  bottom: 0;
-  max-width: 370px;
-  width: 100%;
 }
 
 .main_title--div {

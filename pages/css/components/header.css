@@ -45,6 +45,27 @@ header {
   color: #212121;
 }
 
+.header_navigation--items:nth-child(2) {
+  position: relative;
+  color: #2196F3;
+}
+
+.header_navigation--items:nth-child(2) a {
+  color: #2196F3;
+}
+
+
+.header_navigation--items:nth-child(2)::after {
+  content: "";
+  width: 78px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #2196F3;
+  display: block;
+  top: 41px;
+  position: absolute;
+}
+
 .header_navigation--items a:hover {
   transition: 0.5s;
   color: #2196f3;

@@ -1,4 +1,4 @@
-header {
+ header {
     margin-top: 24px;
     margin-bottom: 25px;
   }
@@ -44,6 +44,27 @@ header {
     line-height: 16.41px;
     letter-spacing: 0.02em;
     color: #212121;
+  }
+
+  .header_navigation--items:first-child {
+    position: relative;
+    color: #2196F3;
+  }
+
+  .header_navigation--items:first-child a {
+    color: #2196F3;
+  }
+
+
+  .header_navigation--items:first-child::after {
+    content: "";
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #2196F3;
+    display: block;
+    top: 41px;
+    position: absolute;
   }
   
   .header_navigation--items a:hover {
